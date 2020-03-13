@@ -6,6 +6,8 @@ yarn-debug.log*
 yarn-error.log*
 
 .next/
+lambda/
+out/
 
 # Runtime data
 pids

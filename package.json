@@ -6,14 +6,15 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start",
-    "export": "next build && next export"
+    "start": "netlify-lambda serve functions",
+    "export": "next build && next export && netlify-lambda build functions"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.19.2",
+    "netlify-lambda": "^1.6.3",
     "next": "^9.3.0",
     "react": "^16.13.0",
     "react-dom": "^16.13.0"
